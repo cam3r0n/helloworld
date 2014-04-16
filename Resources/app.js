@@ -41,15 +41,6 @@ var tab2 = Titanium.UI.createTab({
     window:win2
 });
 
-var label2 = Titanium.UI.createLabel({
-	
-	text:'I am Window 2',
-	
-});
-
-win2.add(label2);
-
-
 
 //
 //  add tabs
@@ -62,8 +53,7 @@ tabGroup.addTab(tab2);
 tabGroup.open();
 
 var button = Ti.UI.createButton({
-	text: 'Fire Event',
-	color: 'BLACK',
+	title: 'Fire Event',
 	width: 100
 });
 win1.add(button);
